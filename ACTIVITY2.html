@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <style>
+        .start {
+            display: grid;
+            grid-template-rows: 4cm 5cm 5cm;
+            grid-template-columns: 10cm 20cm 10cm;
+            gap: 10px;
+            background-color: whitesmoke;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .d1 {
+            background-color: green;
+            right: 0;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            text-align: center;
+            align-content: center;
+
+        }
+
+        .d2 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            border: 0.5px solid white;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.563);
+            padding-left: 10px;
+            width: 450px;
+            margin-left: 15px;
+            height: 150px;
+            margin-top: 20px;
+
+
+        }
+
+        .d3 {
+            border: 0.5px solid black;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            border: 0.5px solid white;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.563);
+            padding-left: 10px;
+            margin-right: 35px;
+            height: 150px;
+            margin-top: 20px;
+        }
+
+        .d4 {
+            border: 0.5px solid black;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 3;
+            border: 0.5px solid white;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.563);
+            padding-left: 10px;
+            margin-left: 15px;
+            height: 150px;
+            width: 450px;
+        }
+
+        .d5 {
+            border: 0.5px solid black;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            grid-row-end: 5;
+            background-color: black;
+            color: white;
+            text-align: center;
+            align-content: center;
+            bottom: 0%;
+            
+        }
+        h1{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="start">
+        <div class="d1">
+            <h1>Welcome to Your Website Task</h1>
+            <div style="word-spacing: 40px;">
+                <a href="https://ums.lpu.in/lpuums/" style="color: white; text-decoration: none;">Home</a>
+                <a href="https://internet.lpu.in/24online/webpages/client.jsp" style="color: white; text-decoration: none;">About</a>
+                <a href="https://chromewebstore.google.com/?pli=1" style="color: white; text-decoration: none;">Contact</a>
+            </div>
+        </div>
+        <div class="d2">
+            <h2 style="color: green;">About CSS</h2>
+            <p>
+                Cascading Style Sheets(CSS) allows you to style and layout your web
+                pages,adding colors, spacing, and more.
+            </p>
+        </div>
+        <div class="d3">
+            <h2 style="color: green;">Box Model</h2>
+            <p>
+                The CSS box describes the rectangular boxes generated for elements
+                . It includes margin, borders, paddinng, and the actual content.
+            </p>
+        </div>
+        <div class="d4">
+            <h2 style="color: green;">Responsive Design</h2>
+            <p>
+                The CSS box describes the rectangular boxes generated for elements
+                . It includes margin, borders, paddinng, and the actual content.
+            </p>
+        </div>
+        <div class="d5">
+            <h2>Created by Vinay Verma Follow us on <a href="https://www.instagram.com" style="text-decoration: none; color: green;">Instagram</a> | 
+                <a href="https://x.com/?lang=en" style="text-decoration: none; color: green;">Twitter</a> | 
+                <a href="https://in.linkedin.com/" style="text-decoration: none; color: green;">LinkedIN</a>
+            </h2>
+        </div>
+    </div>
+</body>
+
+</html>
